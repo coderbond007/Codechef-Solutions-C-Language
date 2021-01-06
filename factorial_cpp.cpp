@@ -3,9 +3,10 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int t=0,fact=1,num=0;
+	int t=0,num=0;
 	cin>>t;
 	while(t--){
+	    long fact =1;
 	    cin>>num;
 	    if(num==0||num==1){
 	      cout<<1<<endl;
@@ -15,7 +16,6 @@ int main() {
 	               fact *= i;
 	           }
 	          cout<<fact<<endl;
-	          fact = 1;
 	    }
 	}
 	return 0;
