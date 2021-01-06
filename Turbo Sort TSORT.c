@@ -5,7 +5,7 @@ int arr[1000000]={0};
      
 void main()
 {
-	int a,n;//See here in this code i is useless so i think that can be deleted.
+	int a,n;
     scanf("%d",&n);
     while(n--)
     {
