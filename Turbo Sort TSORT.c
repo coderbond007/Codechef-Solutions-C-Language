@@ -5,7 +5,7 @@ int arr[1000000]={0};
      
 void main()
 {
-	int a, i,n;
+	int a,n;
     scanf("%d",&n);
     while(n--)
     {
